@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.video_logic{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* we can apply both below and above  display properties */
+
+/* .video{
+    display: inline-block;
+} */
+.details{
+    display: flex;
+}
+
+.thumb img{
+    height: 300px;
+    width:  450px;
+    margin-right: 35px;
+    border-radius: 10px 10px 10px 10px;
+    animation: 100px;
+}
+
+.thumb{
+    justify-items: space-between;
+    
+}
+
+.g p{
+size: 1px;
+font-family: sans-serif;
+font-size: 8px;
+
+}
+
+.t button{
+    margin-left: 90px;
+}
+
+.m{
+    margin-top: 50px;
+}
+.m h1{
+    margin-top: 10px;
+
+}
+.h{
+    height: 50px;
+    
+}
+.b button{
+    margin-left: 200px;
+    margin-bottom: 100px;
+    
+}
+
+

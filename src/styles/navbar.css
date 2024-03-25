@@ -1,0 +1,97 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input{
+    border: 1px solid lightgray ;
+    border-radius: 20px 0px 0px 20px;
+    height: 35px;
+    width: 500px;
+    padding-left: 10px;
+    outline: none;
+    margin-left: 100px;
+}
+
+.search input:focus{
+    border-color: rgb(16, 147, 190);
+}
+.options button{
+    border: 1px solid lightgray;
+    background-color: white;
+    justify-content: space-around;
+    color: rgb(78, 78, 246);
+    border-radius: 15px;
+    align-items: center;
+    padding: 7px 16px;
+    margin: 0px 5px;
+
+}
+.options{
+    display: flex;
+}
+
+.options button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    border: none;
+}
+
+.d{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-left: 15px;
+    margin-top: 2px;
+    
+}
+.search{
+    display: flex;
+    
+}
+
+.d img{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+.se{
+    height: 37px;
+    width: 50px;
+    border: 1px solid lightgray;
+    border: 0px 5px;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.se img{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 50px;
+
+}
+#b{
+    border: none ;
+    
+}
+
+.s{
+    text-align: center;
+    margin-bottom: px;
+}
+
+.d:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    border: none;
+    cursor: text;
+
+}
+.n{
+    text-decoration: none;
+    margin-top: 3px;
+}

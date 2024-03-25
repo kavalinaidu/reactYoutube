@@ -1,0 +1,30 @@
+.add{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    height: 350px;
+    width: 600px;
+    background-color: mistyrose;
+    border: 1px solid blue;
+}
+.for{
+    font-family: sans-serif;
+    margin-top: 10px;
+    
+    
+}
+.for input{
+    font-size: 15px;
+    width: 450px;
+}
+
+.for button{
+    margin-left: 250px;
+    font-size: 20px;
+}
+.for input{
+    position: relative;
+}
